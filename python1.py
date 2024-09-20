@@ -7,9 +7,7 @@ print(f"your P, S is: {P}, {S}")
 
 x, y = 10, 55
 print (x,y)
-buf = x
-x = y
-y = buf
+x, y = y, x
 print (x,y)
 
 g = int(9.81)
