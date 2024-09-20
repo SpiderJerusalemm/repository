@@ -1,13 +1,18 @@
 import math
-x = int()
-while x > 0 :
-    print("hey there! we have a few function, and we want to show them you")
-    x = int(input("0 - i`m ready, 1 - not yet \n"))
-    if x == 0 :
-        print("see ya later")
-        break
-    else :
-        R = input("please, input radius")
-        S = 2 * math.pi * R 
-        print(f"your S is: {S}")
-        
+print("hey there! we have a few function, and we want to show them you")
+R = int(input("please, input radius \n"))
+P = round(int(2) * math.pi * R, 2)
+S = round(math.pi * R**2, 2)
+print(f"your P, S is: {P}, {S}")
+
+x, y = 10, 55
+print (x,y)
+buf = x
+x = y
+y = buf
+print (x,y)
+
+g = int(9.81)
+L = int(input("please, input lenght \n"))
+T = int(2) * math.pi * math.sqrt(L/g)
+print(f"your period is : {T}")
