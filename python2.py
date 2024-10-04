@@ -2,10 +2,9 @@ import math
 
 
 a = float(input("введите первое делимое: \n"))
-b = float(input("введите второе делимое: \n"))
-c = float(input("пожалуйста, введите делитель: \n"))
+b = float(input("пожалуйста, введите делитель: \n"))
 if (b != 0):
-    print(a/c, b/c)
+    print(a/b)
 else:
     print("incorrect!")
 
