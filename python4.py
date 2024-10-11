@@ -1,7 +1,7 @@
 stroka = input()
 dlina = 0
 p = 1
-stroka.replace('н', '!')
+stroka = stroka.replace('н', '!')
 for i in range(len(stroka) - 1):
   if stroka[i] == stroka[i+1]:
     p += 1
