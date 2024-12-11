@@ -11,6 +11,6 @@ x, y = y, x
 print (x,y)
 
 g = int(9.81)
-L = int(input("please, input lenght \n"))
+L = int(input("please, input length \n"))
 T = int(2) * math.pi * math.sqrt(L/g)
 print(f"your period is : {T}")
