@@ -11,8 +11,7 @@ for i in range(len(stroka) - 1):
 print(dlina, stroka)
 
 stroka = input()
-short_stroka = stroka[stroka.find('(') + 1 : stroka.find(')')]
-print(short_stroka)
+print(stroka[stroka.find('(') + 1 : stroka.find(')')])
 
 stroka = input()
 lst = stroka.split(" ")
