@@ -19,3 +19,10 @@ import re
 # poisk = re.findall(r"\b\d{2}\W\d{2}\W\d{2}\b", pismo)
 # redakcia = re.sub(r"\b\d{2}\W\d{2}\W\d{2}\b", "TBD", pismo)
 # print(redakcia)
+
+# text = input()
+# abbreviation_pattern = r'\b([А-ЯЁ]{2,}(?:s+[А-ЯЁ]{2,})*)\b'
+# abbreviations = re.findall(abbreviation_pattern, text)
+# print("find abbr:")
+# for abbr in abbreviations:
+#     print(abbr)
